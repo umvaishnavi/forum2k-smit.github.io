@@ -1,9 +1,8 @@
 ---
 layout: post
-title: We're up and running!
+title: Forum2k, Department of Information Technology, SMIT
 ---
 
-# Forum2k, Department of Information Technology, SMIT
 
 ## About
 
