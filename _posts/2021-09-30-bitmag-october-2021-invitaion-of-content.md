@@ -1,15 +1,13 @@
 ---
 layout: post
-title: FBtmag October 2021 invitaion of content
+title: Bitmag October 2021 invitaion of content
 published: true
 ---
 
-> # BITMAG SUBMISSIONS 🔥<br>
+> BITMAG SUBMISSIONS 🔥
 
 ![Forum2k Bitmag October 2021 Edition Content Submission Banner]({{site.baseurl}}/_posts/Instagram post - Submit Article 2 .png)
 
-
-<br>
 <br>
 Forum2k is rolling out it's bi-annual Magzine ( Bitmag ) October 2021 Edition, this time in an e-mag format. ✨🎉<br>
 <br>
