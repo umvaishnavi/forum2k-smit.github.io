@@ -3,6 +3,7 @@ layout: post
 title: Forum2k, Department of Information Technology, SMIT
 ---
 
+### we're up and running
 
 ## About
 
