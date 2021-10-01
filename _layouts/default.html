@@ -10,13 +10,13 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
     href="{{ site.baseurl }}/feed.xml" />
-  <link rel="icon" href="https://avatars.githubusercontent.com/u/91081542?s=200&v=4"/>
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/91081542?s=200&v=4" />
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-208922408-1" ></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-208922408-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
@@ -26,7 +26,8 @@
   </script>
   <!-- End Google Analytics -->
   <!-- Start Mailchimp -->
-  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/49c2bda239d76e82b3bf25c4a/fc097b8c6cb794365e99fc7e4.js");</script>
+  <script
+    id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/49c2bda239d76e82b3bf25c4a/fc097b8c6cb794365e99fc7e4.js");</script>
   <!-- End Mailchimp -->
 </head>
 
@@ -44,6 +45,8 @@
         <nav>
           <a href="{{ site.baseurl }}/">Updates</a>
           <a href="{{ site.baseurl }}/about">About</a>
+          <a onclick="changeCSS('style.css', 0, 'lt')" id="lt"> 🌝 </a>
+          <a onclick="changeCSS('style-dark.css', 0, 'dt')" id="dt"> 🌚 </a>
         </nav>
       </header>
     </div>
@@ -53,7 +56,7 @@
     {{ content }}
   </div>
 
-  
+
 
   <div class="wrapper-footer">
     <div class="container">
@@ -65,5 +68,60 @@
   </div>
 
 </body>
+
+<script>
+  function changeCSS(cssFile, cssLinkIndex, elemid) {
+    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+    if (cssFile != oldlink.getAttribute("href")) {
+      console.log(cssFile + " " + oldlink.getAttribute("href"));
+      var newlink = document.createElement("link");
+      newlink.setAttribute("rel", "stylesheet");
+      newlink.setAttribute("type", "text/css");
+      newlink.setAttribute("href", location.protocol + "//" + location.host + "/" + cssFile);
+
+      document.getElementsByTagName("head").item(cssLinkIndex).replaceChild(newlink, oldlink);
+
+
+      if (elemid == "lt") {
+        document.getElementById("lt").style.display = "none";
+        document.getElementById("dt").style.display = "inline";
+        sessionStorage.setItem("css", "light");
+      }
+      if (elemid == "dt") {
+        document.getElementById("lt").style.display = "inline";
+        document.getElementById("dt").style.display = "none";
+        sessionStorage.setItem("css", "dark");
+      }
+    }
+  }
+
+  function loadCSS(cssFile, cssLinkIndex) {
+    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+    console.log(cssFile + " " + oldlink.getAttribute("href"));
+    var newlink = document.createElement("link");
+    newlink.setAttribute("rel", "stylesheet");
+    newlink.setAttribute("type", "text/css");
+    newlink.setAttribute("href", location.protocol + "//" + location.host + "/" + cssFile);
+
+    document.getElementsByTagName("head").item(cssLinkIndex).replaceChild(newlink, oldlink);
+    
+    
+
+
+  }
+
+  if (sessionStorage.getItem("css") == "dark") {
+    loadCSS("style-dark.css", 0);
+    document.getElementById("lt").style.display = "inline";
+    document.getElementById("dt").style.display = "none";
+  } else {
+    loadCSS("style.css", 0);
+    document.getElementById("dt").style.display = "inline";
+    document.getElementById("lt").style.display = "none";
+  }
+
+  
+</script>
 
 </html>
