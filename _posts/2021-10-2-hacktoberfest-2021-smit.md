@@ -13,14 +13,14 @@ This year we have opened an Open Source DSA repository where all of you can come
 <br>
 Have A Chance to Win COOL FREE SWAGS after completing 4 QUESTS<br>
 <br>
-Link to the repo: https://github.com/forum2k-smit/DSA-OPEN-SOURCE<br>
-Link to Register: https://hacktoberfest.digitalocean.com/<br>
+Link to the repo: [https://github.com/forum2k-smit/DSA-OPEN-SOURCE](https://github.com/forum2k-smit/DSA-OPEN-SOURCE)<br>
+Link to Register: [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)<br>
 <br>
 How to Contribute<br>
-Share us your Github Username: https://forms.office.com/r/9Zywhm2S7X<br>
-Follow The guide here: https://github.com/forum2k-smit/DSA-OPEN-SOURCE/blob/main/CONTRIBUTING.md<br>
+Share us your Github Username: [https://forms.office.com/r/9Zywhm2S7X](https://forms.office.com/r/9Zywhm2S7X) <br>
+Follow The guide here: [https://github.com/forum2k-smit/DSA-OPEN-SOURCE/blob/main/CONTRIBUTING.md](https://github.com/forum2k-smit/DSA-OPEN-SOURCE/blob/main/CONTRIBUTING.md) <br>
 <br>
-Follow Updates on https://forum2k-smit.github.io/<br>
+Follow Updates on [https://forum2k-smit.github.io/](https://forum2k-smit.github.io/) <br>
 <br>
-Contact for queries :
-Rishabh - 8986194738
+Contact for queries : <br>
+*Rishabh* - 8986194738
