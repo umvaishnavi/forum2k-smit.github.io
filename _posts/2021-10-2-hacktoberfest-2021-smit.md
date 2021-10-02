@@ -7,6 +7,8 @@ published: true
 
 > Fest Alert 🚨
 
+![SMIT Hacktoberfest 2021](https://forum2k-smit.github.io/images/Instagram%20post%20-%20HactoberFest%202021_2.png)
+
 The month of October is well known among the Software Developers as it is a Month of Open Source Development. With the same vision, this Forum2k has Participated in Hacktoberfest 2021.<br>
  <br>
 This year we have opened an Open Source DSA repository where all of you can come and contribute with your knowledge.<br>
