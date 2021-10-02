@@ -85,12 +85,12 @@
       if (elemid == "lt") {
         document.getElementById("lt").style.display = "none";
         document.getElementById("dt").style.display = "inline";
-        sessionStorage.setItem("css", "light");
+        localStorage.setItem("css", "light");
       }
       if (elemid == "dt") {
         document.getElementById("lt").style.display = "inline";
         document.getElementById("dt").style.display = "none";
-        sessionStorage.setItem("css", "dark");
+        localStorage.setItem("css", "dark");
       }
     }
   }
@@ -111,7 +111,7 @@
 
   }
 
-  if (sessionStorage.getItem("css") == "dark") {
+  if (localStorage.getItem("css") == "dark") {
     loadCSS("style-dark.css", 0);
     document.getElementById("lt").style.display = "inline";
     document.getElementById("dt").style.display = "none";
