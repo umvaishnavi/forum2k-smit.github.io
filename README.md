@@ -4,6 +4,15 @@
 
 Forum2k.github.io is a forum2k info platform where you will get information on any projects, events or competitions organised by Forum2k.
 
+## Summary
+
+![GitHub last commit](https://img.shields.io/github/last-commit/forum2k-smit/forum2k-smit.github.io?style=for-the-badge)&nbsp;
+![GitHub issues](https://img.shields.io/github/issues/forum2k-smit/forum2k-smit.github.io?style=for-the-badge)&nbsp;
+![GitHub repo size](https://img.shields.io/github/repo-size/forum2k-smit/forum2k-smit.github.io?style=for-the-badge)&nbsp;
+![GitHub](https://img.shields.io/github/license/forum2k-smit/forum2k-smit.github.io?style=for-the-badge)&nbsp;
+![Lines of code](https://img.shields.io/tokei/lines/github/forum2k-smit/forum2k-smit.github.io?style=for-the-badge)&nbsp;
+![Website](https://img.shields.io/website?down_color=red&down_message=Under%20Maintainence&style=for-the-badge&up_color=green&up_message=UP&url=https%3A%2F%2Fforum2k-smit.github.io)
+
 
 ## Sharing
 
